@@ -1,0 +1,110 @@
+
+
+:root{
+	--color-aqua:#00d9d9;
+	--color-titulos:#000;
+	--color-contenido: #2d2d2d;
+	--bg-header:#000;
+	--bg-footer:#222222;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+#home{
+	text-align: left;
+}
+
+#home h4,
+#home h1{
+	color: #fff;
+	text-align: left
+}
+
+.btn-primary{
+	background-color: aqua;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 0;
+	border: 0;
+	margin-top: 20px;
+}
+
+.titulo{
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.texto{
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-bottom: 50px;
+}
+
+.texto-aboutus{
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 1%;
+	padding-right: 5%;
+	margin-bottom: 50px;
+}
+
+
+
+#services{
+	text-align: center;
+	padding: 10% 0;
+}
+
+#services i{
+	font-size: 50px;
+	color: #00d9d9
+}
+
+#testimonios{
+	text-align: center;
+	padding: 5% 0;
+}
+
+#testimonios i{
+	font-size: 50px;
+	color: #00d9d9;
+}
+
+#aboutus{
+	padding-top: 60px;
+	padding-left: 5%;
+}
+
+#doctors{
+	text-align: center;
+	padding: 5% 0;
+}
+
+footer{
+	background-color: var(--bg-footer);
+	color: #888;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+	
+footer p span{
+	color: var(--color-aqua);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
